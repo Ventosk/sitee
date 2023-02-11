@@ -1,0 +1,99 @@
+/* login */
+body {
+    margin: 0;
+     background-image: url(images/fon4.jpg ); 
+    /* background-color: #202020; */
+    
+}
+.namecompany {
+    display: flex;
+    justify-content: center;
+    color: #202020;
+    font-size: 64px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+}
+.button {
+    
+    margin-top: 3%;
+    width: 20%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #DEDEDE;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold; 
+    background-color: #323232;
+    border-radius: 10px;
+    border: solid #323232    ;
+}
+.name {
+    color: #DEDEDE;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0 2% 0;
+    border-bottom: solid 3px black;
+    background-color:#959595 ;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+}
+.password {
+    color: #DEDEDE;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0 2% 0;
+    border-bottom: solid 3px black;
+    background-color:#959595 ;
+    border-top: none;
+    border-left:none ;
+    border-right: none;
+}
+.login {
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:2% ;
+    padding: 5% 0 10% 0;
+    background-color: #959595;
+    width: 30%;
+    border-radius:30px ;
+    margin-left: 35%;
+}
+.bottomlog {
+    width: 80%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around   ;
+    align-items: center;
+}
+.regi {
+    color: black;
+    font-family: 'Manrope', sans-serif;
+}
+.regi:hover {
+    border-bottom:solid 2px ;
+}
+.found {
+    color: black;
+    font-family: 'Manrope', sans-serif; 
+    
+}
+.found:hover {
+    border-bottom:solid 2px ;
+}
+a {
+    text-decoration: none;
+}
